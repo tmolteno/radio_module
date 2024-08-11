@@ -369,7 +369,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1386,6 +1386,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cbb96df-68a3-4567-a861-540deb41faab")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3007,7 +3020,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3232,6 +3245,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "217881a9-7fb4-47e9-aa2d-f101150174a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f20fbf31-47b8-4912-9caa-c1ed256d71c4/2cb65a06-2f95-4d31-aaf4-63b5567720e0")
 		(sheetname "Radio4")
@@ -3441,6 +3467,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe0fbd0a-3075-473a-92d1-fa3c8e210028")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5513,7 +5552,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6649,6 +6688,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa7c13d0-1554-44a3-a5a6-3652036f6e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbad701b-ab9c-48bf-af04-0d262cb749b1/35886248-553e-4b58-ae63-fa921e9fcbc1")
 		(sheetname "Radio3")
@@ -7205,7 +7257,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7426,6 +7478,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c00ff766-48f7-41be-aed5-6ad4c5e2984f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7869,6 +7934,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5766e812-9b2d-41c0-b947-5afe25350825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/78691f3e-c8cc-4de2-b4f7-4d5d660bca23/68ea5736-eba9-419d-879d-11e0a5d6af3e")
 		(sheetname "Radio1")
@@ -8082,7 +8160,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8307,7 +8385,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10408,6 +10486,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18c2cef0-2bd5-4627-8d20-33e877eb75cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bbad701b-ab9c-48bf-af04-0d262cb749b1/b0db5b41-b77e-4d40-a3e9-687b6e0b58c6")
 		(sheetname "Radio3")
@@ -11962,6 +12053,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd37e34-5b9a-41e8-8a48-3099da95afad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f20fbf31-47b8-4912-9caa-c1ed256d71c4/68ea5736-eba9-419d-879d-11e0a5d6af3e")
 		(sheetname "Radio4")
@@ -12171,6 +12275,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb12b53f-8aa1-4699-9d58-8a44742d5b96")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12610,6 +12727,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a881a202-0dfa-4a22-bd9f-7c2fa7db4972")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13957,6 +14087,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25765"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04643ac-398b-46a3-8353-0a0f215bc1cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f20fbf31-47b8-4912-9caa-c1ed256d71c4/0576bd8d-b663-407a-bca4-e5ca105c361c")
 		(sheetname "Radio4")
@@ -14336,7 +14479,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J7"
-			(at 0.475 -3.2 360)
+			(at 0.475 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "61acbec8-ba84-470d-ab99-44dd84fde0a6")
 			(effects
@@ -14347,7 +14490,7 @@
 			)
 		)
 		(property "Value" "U.FL"
-			(at 0.475 3.2 360)
+			(at 0.475 3.2 0)
 			(layer "F.Fab")
 			(uuid "fadfd945-79ac-4d01-b2bc-adae7202c9d5")
 			(effects
@@ -15164,6 +15307,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b0fec79-4a49-4061-aa4f-e4685686f9e3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17292,6 +17448,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25765"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13104566-c3d7-4c1b-8510-f00d129a0214")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/78691f3e-c8cc-4de2-b4f7-4d5d660bca23/0576bd8d-b663-407a-bca4-e5ca105c361c")
 		(sheetname "Radio1")
@@ -17692,7 +17861,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J5"
-			(at 0.475 -3.2 360)
+			(at 0.475 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "3c227ca9-4cf5-48a5-be85-24b1e69a27cc")
 			(effects
@@ -17703,7 +17872,7 @@
 			)
 		)
 		(property "Value" "U.FL"
-			(at 0.475 3.2 360)
+			(at 0.475 3.2 0)
 			(layer "F.Fab")
 			(uuid "b6860b87-630a-423b-ad74-afa9b17e6a80")
 			(effects
@@ -19723,7 +19892,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20152,6 +20321,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1557"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "113f1d2a-d3fa-4886-b48a-1278947d3301")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20842,7 +21024,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21967,6 +22149,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bf04679-c197-4dfc-a99e-80c6a5863187")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23103,6 +23298,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dde2e69f-89bb-489d-b728-c834caf63c88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/78691f3e-c8cc-4de2-b4f7-4d5d660bca23/2cb65a06-2f95-4d31-aaf4-63b5567720e0")
 		(sheetname "Radio1")
@@ -23563,7 +23771,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23784,6 +23992,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c282150-ecd3-4fa6-b502-84a9e5a49555")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24118,7 +24339,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25843,6 +26064,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a71dd89-f4c6-47b0-b6f4-b357f88b0302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1b895c4a-56fd-4590-a8aa-7507dccb37cf/68ea5736-eba9-419d-879d-11e0a5d6af3e")
 		(sheetname "Radio2")
@@ -26494,7 +26728,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27623,6 +27857,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1557"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5529f50a-cfd4-4702-ab07-b612adcc64f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f20fbf31-47b8-4912-9caa-c1ed256d71c4/a9fdde61-d9f7-4677-af82-6f9d102d7b5a")
 		(sheetname "Radio4")
@@ -27832,6 +28079,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d0631c1-03e9-4c51-8151-8b9b384b7b2d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28271,6 +28531,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25765"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de523942-811a-49c3-9250-fd690c5ae969")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28813,6 +29086,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13d69cc7-5530-463a-a070-c3a9a6ac06be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f20fbf31-47b8-4912-9caa-c1ed256d71c4/77feaa64-6058-4cfc-8f42-cfa91d399a31")
 		(sheetname "Radio4")
@@ -29022,6 +29308,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ff81c64-7867-4a99-8395-9d5c7f2cb0f3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29687,6 +29986,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1557"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4f2bc99-f0b5-4920-a4a1-c7919170e4d7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31015,6 +31327,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1557"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0c0b3ee-bc0a-40c2-b248-4ca4029f7ee4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1b895c4a-56fd-4590-a8aa-7507dccb37cf/a9fdde61-d9f7-4677-af82-6f9d102d7b5a")
 		(sheetname "Radio2")
@@ -31701,7 +32026,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31926,6 +32251,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25765"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bb48a97-ed37-4ac3-92cf-96d683a9031f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bbad701b-ab9c-48bf-af04-0d262cb749b1/0576bd8d-b663-407a-bca4-e5ca105c361c")
 		(sheetname "Radio3")
@@ -32079,7 +32417,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J9"
-			(at 0.475 -3.2 360)
+			(at 0.475 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "85b13f9d-2e3a-424b-b4f0-2e0f277cac9e")
 			(effects
@@ -32090,7 +32428,7 @@
 			)
 		)
 		(property "Value" "U.FL"
-			(at 0.475 3.2 360)
+			(at 0.475 3.2 0)
 			(layer "F.Fab")
 			(uuid "a9cedf2a-e4e6-4752-9266-04570d148b54")
 			(effects
@@ -33797,6 +34135,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "520efe59-1b0d-494a-ba7f-cb4cba1f78f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1b895c4a-56fd-4590-a8aa-7507dccb37cf/b0db5b41-b77e-4d40-a3e9-687b6e0b58c6")
 		(sheetname "Radio2")
@@ -34006,6 +34357,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c706e297-0a56-40e7-adbf-b7fb85849066")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34979,7 +35343,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J2"
-			(at 0.475 -3.2 360)
+			(at 0.475 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "8799ec35-54d6-4801-a89d-f4d061c3759d")
 			(effects
@@ -34990,7 +35354,7 @@
 			)
 		)
 		(property "Value" "U.FL"
-			(at 0.475 3.2 360)
+			(at 0.475 3.2 0)
 			(layer "F.Fab")
 			(uuid "b3913224-7da2-4d57-8b01-c5532c4884fa")
 			(effects
@@ -37472,7 +37836,7 @@
 		)
 	)
 	(gr_text "1"
-		(at 171.27 125.84 90)
+		(at 171 125.84 90)
 		(layer "F.SilkS")
 		(uuid "80385be7-bab8-4230-82f4-c1263c23d85a")
 		(effects

@@ -3850,6 +3850,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25765"
+			(at 193.04 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1c1353a-c397-435c-b43b-0a96e1238445")
 		)
@@ -4023,7 +4032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 26.035 107.9499 0)
 			(effects
 				(font
@@ -4132,7 +4141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 40.005 107.9499 0)
 			(effects
 				(font
@@ -4499,6 +4508,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "869c8e2a-b7b1-479c-b872-ccc470d64b31")
 		)
@@ -4682,6 +4700,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
 			(at 147.32 72.39 0)
 			(effects
 				(font
@@ -5061,6 +5088,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307449"
+			(at 134.62 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fac5050e-3901-48cc-8b51-a7fcb7d69a8c")
 		)
@@ -5134,6 +5170,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307449"
+			(at 100.33 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,6 +5863,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1557"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6bb3b3a4-e5ed-4295-ae44-c10074de1353")
 		)
@@ -6060,6 +6114,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C307449"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -6330,7 +6393,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C11702"
 			(at 53.975 107.9499 0)
 			(effects
 				(font
