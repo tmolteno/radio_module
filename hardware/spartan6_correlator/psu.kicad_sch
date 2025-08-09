@@ -1261,6 +1261,12 @@
 		(uuid "56952d0a-518c-409d-888d-bdd63efa659e")
 	)
 	(junction
+		(at 50.8 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b667ecd-b854-4c71-9923-723f87dbd44a")
+	)
+	(junction
 		(at 95.25 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1295,12 +1301,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90534f70-62dc-4fed-a765-f596aa9d7f7c")
-	)
-	(junction
-		(at 50.8 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a13e9d2d-c1d7-4e28-b7b5-c6550a668340")
 	)
 	(junction
 		(at 85.09 127)
@@ -2102,8 +2102,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a9c9fa2-84dd-4f34-8675-819111e8f975")
+		(uuid "0d3d0897-86be-44a8-b876-f229658a53ef")
 		(property "Reference" "C7"
 			(at 123.19 132.0799 0)
 			(effects
@@ -2122,7 +2121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 137.16 0)
 			(effects
 				(font
@@ -2140,7 +2139,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF 6.3V X5R ±20%"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -2150,10 +2158,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a0208d0-33ec-4d70-866e-1b105511e167")
+			(uuid "bceb9864-9530-411b-bc58-bb1ec3ab05ca")
 		)
 		(pin "1"
-			(uuid "be77b849-ae77-4b9f-a816-b7e88136302c")
+			(uuid "29754067-c968-40ad-a0cd-d98a2c166079")
 		)
 		(instances
 			(project "spartan6_correlator"
@@ -2190,7 +2198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -2199,7 +2207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "FTC252012S1R0MBCA"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -2208,8 +2216,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "1uH 35mΩ 4A 5.6A ±20% SMD,2x2.5mm"
 			(at 80.01 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5832370"
+			(at 80.01 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,74 +2244,6 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 80.01 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2639daaa-3052-4967-91f1-b963e28ab408")
-		(property "Reference" "L1"
-			(at 80.01 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 uH"
-			(at 80.01 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 80.01 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "580386d9-7028-4de6-a95e-912e5f71424e")
-		)
-		(pin "1"
-			(uuid "15cc43e0-f487-4156-b98e-3db0db7dc396")
-		)
-		(instances
-			(project ""
-				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2361,76 +2310,6 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "385791e6-8322-499b-bf54-2545fe89021f")
-		(property "Reference" "C2"
-			(at 54.61 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 54.61 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 51.7652 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1fd3e45-d372-44cf-bc81-a7c09a5509fe")
-		)
-		(pin "1"
-			(uuid "874e2c92-7c75-4e88-aa83-412403e428e1")
-		)
-		(instances
-			(project "spartan6_correlator"
-				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.9152 60.96 0)
 			(effects
 				(font
@@ -2664,6 +2543,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 50.8 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "628347ee-7c6f-4f1c-b503-49ae3d6b5b47")
+		(property "Reference" "C2"
+			(at 54.61 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 54.61 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 51.7652 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 4.7uF X5R ±20% 0402"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a638e42f-7a10-42c6-b979-0278e308c93d")
+		)
+		(pin "1"
+			(uuid "b29c13d3-94ac-4da1-888a-fc016968a5bf")
+		)
+		(instances
+			(project "spartan6_correlator"
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 67.31 0)
 		(unit 1)
@@ -2691,7 +2649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 67.31 90)
 			(effects
 				(font
@@ -2760,7 +2718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 108.9152 137.16 0)
 			(effects
 				(font
@@ -2778,7 +2736,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "22uF 6.3V X5R ±20%"
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -2863,6 +2830,83 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 80.01 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f7d9066-9198-4354-8228-5f1e398f7a9a")
+		(property "Reference" "L3"
+			(at 80.01 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uH"
+			(at 80.01 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "FTC252012S1R0MBCA"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uH 35mΩ 4A 5.6A ±20% SMD,2x2.5mm"
+			(at 80.01 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5832370"
+			(at 80.01 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b0e479e-8d91-4eaa-94f4-0bdfcae1022e")
+		)
+		(pin "1"
+			(uuid "69dbf369-380f-4c7a-90a8-c05a86d1709e")
+		)
+		(instances
+			(project "spartan6_correlator"
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/f41f22f3-be3c-4560-bd87-8a5387c1ffbc"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -3028,7 +3072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 143.51 90)
 			(effects
 				(font
@@ -3187,7 +3231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 57.15 90)
 			(effects
 				(font
@@ -3257,7 +3301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.2152 60.96 0)
 			(effects
 				(font
@@ -3327,7 +3371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.2152 137.16 0)
 			(effects
 				(font
@@ -3463,7 +3507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 44.45 90)
 			(effects
 				(font
@@ -3599,7 +3643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 120.65 90)
 			(effects
 				(font
@@ -3999,7 +4043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 83.312 133.35 90)
 			(effects
 				(font
@@ -4069,7 +4113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 58.42 0)
 			(effects
 				(font
@@ -4087,7 +4131,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 4.7uF X5R ±20% 0402"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
 			(at 50.8 54.61 0)
 			(effects
 				(font
