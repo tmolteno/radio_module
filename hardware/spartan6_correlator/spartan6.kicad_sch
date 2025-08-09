@@ -5123,6 +5123,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "swd-connect:jtag-connect-5"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.032 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "jtag-connect-6"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Simple SWD programming footprint (MCU side)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "jtag-connect-5_0_1"
+				(rectangle
+					(start -3.81 8.89)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "jtag-connect-5_1_1"
+				(pin unspecified line
+					(at -6.35 7.62 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 5.08 0)
+					(length 2.54)
+					(name "TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "64 MBIT SPI Flash"
 		(exclude_from_sim no)
@@ -6777,6 +6949,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 171.45) (xy 118.11 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c792bf1-a34f-4aed-80c4-a6cfc598e9f6")
+	)
+	(wire
+		(pts
 			(xy 163.83 245.11) (xy 163.83 247.65)
 		)
 		(stroke
@@ -7205,6 +7387,16 @@
 		)
 		(uuid "61333fe5-0a27-442c-a21a-11d280fc276a")
 	)
+	(wire
+		(pts
+			(xy 118.11 184.15) (xy 118.11 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a83895-8cfa-45eb-91d3-feefc826d1ea")
+	)
 	(bus
 		(pts
 			(xy 346.71 99.06) (xy 346.71 96.52)
@@ -7384,6 +7576,16 @@
 			(type default)
 		)
 		(uuid "72a2dcfd-bf2b-42ce-bf17-7ff5731ab23c")
+	)
+	(wire
+		(pts
+			(xy 120.65 184.15) (xy 118.11 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74391254-f4d0-4d8d-baf0-7772bfa7acdf")
 	)
 	(wire
 		(pts
@@ -8807,6 +9009,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 171.45) (xy 118.11 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6e0d59-a361-4c26-9960-cfcac621d9e9")
+	)
+	(wire
+		(pts
 			(xy 63.5 24.13) (xy 68.58 24.13)
 		)
 		(stroke
@@ -9515,6 +9727,28 @@
 		)
 		(uuid "fe396a38-a9f9-4039-8406-8f0b9c19d1b5")
 	)
+	(global_label "TMS"
+		(shape input)
+		(at 120.65 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14d5f1db-2812-4996-b547-8d800f3628c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.0363 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TDI"
 		(shape input)
 		(at 354.33 168.91 0)
@@ -9533,6 +9767,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TDI"
+		(shape input)
+		(at 120.65 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44711f44-97e7-43a3-9cf6-7e32ab2bbea8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.8224 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9594,6 +9850,28 @@
 		(uuid "5acc88c3-730c-4d0b-ac71-377f9e1450c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 216.6038 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TDO"
+		(shape input)
+		(at 120.65 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c7f8d67-46b7-431a-ab31-5300ba7d19bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.0967 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9687,6 +9965,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TCK"
+		(shape input)
+		(at 120.65 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa8ab38b-86e8-4891-992b-27a3e0e272bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1572 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10473,6 +10773,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 118.11 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5b1727-f516-4200-8aa8-c1fd36cfa9f5")
+		(property "Reference" "#PWR072"
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 118.11 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 118.11 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453d0e32-035f-4c57-9e6c-d4550c9e2459")
+		)
+		(instances
+			(project "spartan6_correlator"
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 204.47 246.38 0)
 		(unit 1)
@@ -11023,6 +11389,88 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "swd-connect:jtag-connect-5")
+		(at 127 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "505ddfb6-0433-45a7-a054-c34d59a03d1b")
+		(property "Reference" "J3"
+			(at 132.08 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "jtag-connect-6"
+			(at 132.08 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "swd-connect:jtag-connect-6-mcu"
+			(at 127 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Simple JTAG programming footprint (MCU side)"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "52511863-6aad-4379-85ba-8a01d9e679b8")
+		)
+		(pin "3"
+			(uuid "21b6403e-880b-43f0-97e9-c9fe4a22ef8c")
+		)
+		(pin "1"
+			(uuid "79286d5c-fc86-408a-9e32-f7e315c18b0d")
+		)
+		(pin "5"
+			(uuid "53c3c984-8f11-4842-8283-3901dd399af6")
+		)
+		(pin "2"
+			(uuid "81bd1118-8e69-40b6-9989-ec916240cade")
+		)
+		(pin "4"
+			(uuid "4ae52f8c-2845-4f4e-b8ef-4f0de3be74ba")
+		)
+		(instances
+			(project ""
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12304,6 +12752,72 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82473905-a283-4e4f-94ce-209680c14909")
+		(property "Reference" "#PWR071"
+			(at 118.11 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7e4813-2e1a-409f-97ab-7d89f8a1e478")
+		)
+		(instances
+			(project "spartan6_correlator"
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)

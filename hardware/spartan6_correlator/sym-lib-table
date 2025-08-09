@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "TART_Library")(type "KiCad")(uri "/home/tim/tart-telescope/radio_module/hardware/TART_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "swd-connect")(type "KiCad")(uri "/Users/tim/github/swd-connect/swd-connect.kicad_sym")(options "")(descr ""))
 )

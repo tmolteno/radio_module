@@ -16,8 +16,8 @@
 		(uuid "29f0f4a5-7bf6-4f15-be9a-19b2d7485ead")
 	)
 	(sheet
-		(at 33.02 36.83)
-		(size 33.02 35.56)
+		(at 34.29 46.355)
+		(size 90.805 67.945)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -32,7 +32,7 @@
 		)
 		(uuid "0f870bae-1b36-4d32-bbf7-07ee3a6709bf")
 		(property "Sheetname" "Spartan 6"
-			(at 33.02 36.1184 0)
+			(at 34.29 45.6434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Sheetfile" "spartan6.kicad_sch"
-			(at 33.02 72.9746 0)
+			(at 34.29 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,8 +58,8 @@
 		)
 	)
 	(sheet
-		(at 92.71 104.14)
-		(size 30.48 46.99)
+		(at 196.85 71.755)
+		(size 56.515 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74,7 +74,7 @@
 		)
 		(uuid "94f7c847-fafa-4ae1-8500-63416fae1695")
 		(property "Sheetname" "Correlator"
-			(at 92.71 103.4284 0)
+			(at 196.85 71.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,7 +83,7 @@
 			)
 		)
 		(property "Sheetfile" "correlator.kicad_sch"
-			(at 92.71 151.7146 0)
+			(at 196.85 119.3296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,7 +100,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 38.1)
+		(at 115.57 136.525)
 		(size 39.37 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -116,7 +116,7 @@
 		)
 		(uuid "f41f22f3-be3c-4560-bd87-8a5387c1ffbc")
 		(property "Sheetname" "Power Supply"
-			(at 95.25 37.3884 0)
+			(at 115.57 135.8134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 95.25 71.7046 0)
+			(at 115.57 170.1296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,48 +137,6 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 144.78 100.33)
-		(size 38.1 48.26)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fa218c0a-1232-410c-a659-4e594d5ca880")
-		(property "Sheetname" "USB & JTAG"
-			(at 144.78 99.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb_jtag.kicad_sch"
-			(at 144.78 149.1746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "spartan6_correlator"
-				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06"
-					(page "5")
 				)
 			)
 		)
