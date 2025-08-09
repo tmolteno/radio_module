@@ -1232,6 +1232,16 @@
 		)
 		(uuid "c7764bbb-7937-42a1-8298-c29f42f21cb4")
 	)
+	(text "Should the PG pin of the 3.3V be used to enable the 1.2 V regulator?"
+		(exclude_from_sim no)
+		(at 83.312 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8115202-5ec0-433f-b86a-ed8fa31a143a")
+	)
 	(junction
 		(at 107.95 127)
 		(diameter 0)
