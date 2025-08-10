@@ -2139,7 +2139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 6.3V X5R ±20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "FTC252012S1R0MBCA"
+		(property "Datasheet" "~"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -2216,7 +2216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uH 35mΩ 4A 5.6A ±20% SMD,2x2.5mm"
+		(property "Description" "Inductor"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -2588,7 +2588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 4.7uF X5R ±20% 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -2736,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF 6.3V X5R ±20%"
+		(property "Description" "Unpolarized capacitor"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -2870,7 +2870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "FTC252012S1R0MBCA"
+		(property "Datasheet" "~"
 			(at 80.01 50.8 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1uH 35mΩ 4A 5.6A ±20% SMD,2x2.5mm"
+		(property "Description" "Inductor"
 			(at 80.01 50.8 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 4.7uF X5R ±20% 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 50.8 54.61 0)
 			(effects
 				(font

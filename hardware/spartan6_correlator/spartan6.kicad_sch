@@ -11214,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8613787315165163520"
+		(property "Datasheet" "https://www.sitime.com/support/resource-library/datasheets/sit8008-datasheet"
 			(at 256.54 255.27 0)
 			(effects
 				(font
@@ -11223,7 +11223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Crystal Oscillator. 1.8V~3.3V 32MHz CMOS ±10ppm ±20ppm SMD2016-4P"
+		(property "Description" "SiTime Low Power Mems programmable oscillator, 1MHz to 110MHz, PQFN-4, 2.0x1.6mm (with output enable pin)"
 			(at 256.54 255.27 0)
 			(effects
 				(font
