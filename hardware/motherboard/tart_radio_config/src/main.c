@@ -77,7 +77,7 @@ float qcos2(float x) {
 
 int main(void)
 {
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
 	SystemCoreClockUpdate();
 	Delay_Init();
 
