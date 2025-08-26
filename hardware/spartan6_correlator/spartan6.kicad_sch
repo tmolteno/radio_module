@@ -5306,6 +5306,16 @@
 		)
 		(uuid "24329657-72ea-4e51-83f0-19b3837719ad")
 	)
+	(text "M0 Hi, M1 Lo: puts FPGA \nin Master Serial / SPI mode"
+		(exclude_from_sim no)
+		(at 176.276 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f487277-a47a-4e5f-9149-caa345b5572a")
+	)
 	(junction
 		(at 256.54 246.38)
 		(diameter 0)
@@ -8647,6 +8657,16 @@
 			(type default)
 		)
 		(uuid "b27d0ddd-e119-46cd-aacd-ccb1487abe44")
+	)
+	(wire
+		(pts
+			(xy 180.34 60.96) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c93afc-d1a1-4967-98ec-8e1a145ddde3")
 	)
 	(wire
 		(pts
@@ -16312,6 +16332,72 @@
 			(project "spartan6_correlator"
 				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7da9ee4-3a8e-4f84-bdb0-0fea4444e9b0")
+		(property "Reference" "#PWR069"
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c22d582a-0e7f-4b49-8673-43972a65d361")
+		)
+		(instances
+			(project "spartan6_correlator"
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
