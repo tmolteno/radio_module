@@ -5701,6 +5701,12 @@
 		(uuid "608bdf49-05be-4616-b846-6dc4bba6410f")
 	)
 	(junction
+		(at 346.71 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6606cb4d-13b5-4aa9-8baa-6739c9f0d2ff")
+	)
+	(junction
 		(at 172.72 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6808,7 +6814,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 52.07) (xy 349.25 52.07)
+			(xy 332.74 52.07) (xy 349.25 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8708,7 +8714,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 46.99) (xy 349.25 46.99)
+			(xy 332.74 46.99) (xy 349.25 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8765,6 +8771,16 @@
 			(type default)
 		)
 		(uuid "a233501b-1ed8-465e-b180-9122b3abf652")
+	)
+	(wire
+		(pts
+			(xy 346.71 44.45) (xy 349.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27e3fff-af54-4fa6-bc79-0b2f4302d3b0")
 	)
 	(wire
 		(pts
@@ -9208,7 +9224,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 44.45) (xy 349.25 44.45)
+			(xy 332.74 44.45) (xy 346.71 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9598,13 +9614,23 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 49.53) (xy 349.25 49.53)
+			(xy 332.74 49.53) (xy 349.25 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3c42b15-ca64-412c-9806-a7d734d5261f")
+	)
+	(wire
+		(pts
+			(xy 346.71 41.91) (xy 346.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43454b7-9fc5-461f-a4d3-e0ad3ea06e0a")
 	)
 	(wire
 		(pts
@@ -10884,7 +10910,7 @@
 	)
 	(global_label "FLASH_SI"
 		(shape input)
-		(at 345.44 49.53 180)
+		(at 332.74 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10894,7 +10920,7 @@
 		)
 		(uuid "4fa2cd19-62db-416b-819e-676cc84f9cfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.9276 49.53 0)
+			(at 321.2276 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +10998,7 @@
 	)
 	(global_label "FLASH_CLK"
 		(shape input)
-		(at 345.44 46.99 180)
+		(at 332.74 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10982,7 +11008,7 @@
 		)
 		(uuid "5acc88c3-730c-4d0b-ac71-377f9e1450c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.1738 46.99 0)
+			(at 319.4738 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11240,7 @@
 	)
 	(global_label "FLASH_CS"
 		(shape input)
-		(at 345.44 44.45 180)
+		(at 332.74 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11224,7 +11250,7 @@
 		)
 		(uuid "89565baa-2da4-45df-a616-7f4fde644984")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.2624 44.45 0)
+			(at 320.5624 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +11284,7 @@
 	)
 	(global_label "FLASH_SO"
 		(shape input)
-		(at 345.44 52.07 180)
+		(at 332.74 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11268,7 +11294,7 @@
 		)
 		(uuid "8e16238f-b557-4f0e-b19c-8d378b836cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.2019 52.07 0)
+			(at 320.5019 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16325,6 +16351,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 346.71 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c5eb8e2-e204-4195-b815-93d680f17c2b")
+		(property "Reference" "R4"
+			(at 349.25 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.4k"
+			(at 349.25 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 344.932 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 346.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b346fa4-a243-4d90-8ad0-e6a19b8383e6")
+		)
+		(pin "1"
+			(uuid "4447e494-8098-4034-aab4-6e954a69c942")
+		)
+		(instances
+			(project ""
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 198.12 195.58 0)
 		(unit 1)
@@ -17432,6 +17528,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 346.71 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b69ae8e1-9984-48ac-b01a-3550929bec2f")
+		(property "Reference" "#PWR074"
+			(at 346.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 346.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 346.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9765d47-39d5-4a2b-b4b6-b882bc9c0a35")
+		)
+		(instances
+			(project "spartan6_correlator"
+				(path "/8ae81fb2-9453-407b-8fcb-200de484ec06/0f870bae-1b36-4d32-bbf7-07ee3a6709bf"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 256.54 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18281,7 +18443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q64JVSS"
+		(property "Value" "W25Q80DVSSIG"
 			(at 360.934 63.754 0)
 			(effects
 				(font
@@ -18299,7 +18461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98163.pdf"
 			(at 359.41 52.07 0)
 			(effects
 				(font
@@ -18317,7 +18479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C179171"
+		(property "LCSC" "C98163"
 			(at 359.41 52.07 0)
 			(effects
 				(font
