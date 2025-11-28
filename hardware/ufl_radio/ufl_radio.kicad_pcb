@@ -35273,18 +35273,6 @@
 		(layer "Edge.Cuts")
 		(uuid "e7ae0afd-6151-45fa-94f8-8d05f656ea47")
 	)
-	(gr_text "Radio1"
-		(at 162.1 113.65 0)
-		(layer "F.SilkS")
-		(uuid "0e6e3631-ee9b-44c9-a79c-dcdbf657d9fd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "TART Radio Module\nv3.1.0b1\nTim Molteno (c) 11/2025\nhttps://tart.elec.ac.nz"
 		(at 205 129 90)
 		(layer "F.SilkS")
@@ -36443,20 +36431,8 @@
 			)
 		)
 	)
-	(gr_text "Radio1"
-		(at 162.1 83.15 0)
-		(layer "F.SilkS")
-		(uuid "36bb4653-b1ec-44bb-a9bb-a511ecc483ef")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "1"
-		(at 170.9 79.25 90)
+	(gr_text "4"
+		(at 171 82 90)
 		(layer "F.SilkS")
 		(uuid "3a56a829-7845-4a5f-a13c-ebd028fccc63")
 		(effects
@@ -36467,8 +36443,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1"
-		(at 170.9 109.75 90)
+	(gr_text "2"
+		(at 170.9 112 90)
 		(layer "F.SilkS")
 		(uuid "3a967cb1-fa90-49df-9c4d-cb38127e9016")
 		(effects
@@ -36480,7 +36456,7 @@
 		)
 	)
 	(gr_text "1"
-		(at 170.9 125 90)
+		(at 170.9 127.5 90)
 		(layer "F.SilkS")
 		(uuid "80385be7-bab8-4230-82f4-c1263c23d85a")
 		(effects
@@ -36491,32 +36467,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Radio1"
-		(at 162.1 128.9 0)
-		(layer "F.SilkS")
-		(uuid "84086dc3-961b-461b-b66f-6968fd2e8be4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Radio1"
-		(at 162.1 98.4 0)
-		(layer "F.SilkS")
-		(uuid "a13fcd27-69fb-466b-bc6c-497c37d2afc1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "1"
-		(at 170.9 94.5 90)
+	(gr_text "3"
+		(at 170.9 96.5 90)
 		(layer "F.SilkS")
 		(uuid "d4938a50-36df-4100-bbeb-274c48aef217")
 		(effects
