@@ -5231,8 +5231,8 @@
 		(at 41.91 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8481e818-7df5-4358-b18a-bfe9f7a89358")
@@ -5273,6 +5273,24 @@
 			)
 		)
 		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7469751"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NOTE" "Using TE Connectivity MFR.Part # 2118706-2"
 			(at 41.91 36.83 0)
 			(effects
 				(font

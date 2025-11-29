@@ -4,6 +4,6 @@ kikit panelize \
     --cuts 'type: vcuts' \
     --framing 'type: railstb; mintotalheight: 100mm' \
     --fiducials 'type: 4fid; hoffset: 5mm; voffset: 2.5mm; coppersize: 2mm' \
-    --text 'type: simple; voffset: 2.5mm; text: Radio Module Set' \
+    --text 'type: simple; voffset: 2.5mm; text: TART Radio Module Set' \
     --post 'millradius: 0.5mm' \
     ufl_radio.kicad_pcb panelized_radios.kicad_pcb
