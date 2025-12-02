@@ -2968,16 +2968,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 38.1) (xy 246.38 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9772ace3-1acf-4a44-b982-a39c354d8623")
-	)
-	(wire
-		(pts
 			(xy 165.1 132.08) (xy 170.18 132.08)
 		)
 		(stroke
@@ -3238,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 38.1) (xy 233.68 38.1)
+			(xy 229.87 38.1) (xy 246.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4203,95 +4193,6 @@
 			(project "baseboard"
 				(path "/90e67b08-3f87-4aae-a0f4-e75745c296ee"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 38.1 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23a7d15b-18d9-4ac1-972a-a89eb31e8fcb")
-		(property "Reference" "R2"
-			(at 237.49 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 237.49 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 237.49 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 237.49 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c9b15f7-3e0a-4cc2-addb-ff9cdfaf6f5d")
-		)
-		(pin "2"
-			(uuid "89c438c6-5816-4afd-b70c-a4969ecc9584")
-		)
-		(instances
-			(project "design"
-				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c/1b895c4a-56fd-4590-a8aa-7507dccb37cf"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c/78691f3e-c8cc-4de2-b4f7-4d5d660bca23"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c/bbad701b-ab9c-48bf-af04-0d262cb749b1"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c/f20fbf31-47b8-4912-9caa-c1ed256d71c4"
-					(reference "R27")
 					(unit 1)
 				)
 			)

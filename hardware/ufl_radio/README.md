@@ -1,6 +1,6 @@
 ## Panelization
 
-Use kitkit debian packages.https://github.com/INTI-CMNB/KiKit/releases
+Use kitkit debian packages.https://github.com/INTI-CMNB/KiKit/releases. Or install Kibot
 
 Then run the panelization script
 
