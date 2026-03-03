@@ -738,7 +738,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tart:CS48520AS"
+		(symbol "tart:CS48520AD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -750,7 +750,7 @@
 					)
 				)
 			)
-			(property "Value" "CS48520AS"
+			(property "Value" "CS48520AD"
 				(at 5.08 10.16 0)
 				(effects
 					(font
@@ -758,7 +758,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm"
 				(at -1.27 -15.24 0)
 				(effects
 					(font
@@ -785,8 +785,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C7422554"
-				(at -7.62 -11.43 0)
+			(property "LCSC" "C7422569"
+				(at -11.43 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -802,7 +802,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CS48520AS_0_1"
+			(symbol "CS48520AD_0_1"
 				(rectangle
 					(start -6.35 8.89)
 					(end 6.35 -8.89)
@@ -827,7 +827,7 @@
 					)
 				)
 			)
-			(symbol "CS48520AS_1_1"
+			(symbol "CS48520AD_1_1"
 				(polyline
 					(pts
 						(xy -6.35 2.54) (xy 0 2.54)
@@ -1022,6 +1022,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -11.43 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2055,6 +2073,12 @@
 		(uuid "b308c8a8-7c89-49c7-b495-e792a1bef4c5")
 	)
 	(junction
+		(at 189.23 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7fc2ca-acb2-42c7-91b9-9357058d2a1c")
+	)
+	(junction
 		(at 242.57 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2070,7 +2094,7 @@
 		(at 193.04 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d8f696e-29a8-48b5-9227-82868bc75b42")
+		(uuid "c0644c75-a61e-4659-9b17-92f998fb68dc")
 	)
 	(no_connect
 		(at 184.15 58.42)
@@ -2099,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "03714c4e-f2d3-4751-b19f-2952267f7855")
+	)
+	(wire
+		(pts
+			(xy 189.23 68.58) (xy 193.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a56458-2e3c-4bcc-b908-07ea3974e20b")
 	)
 	(wire
 		(pts
@@ -2272,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 68.58) (xy 193.04 68.58)
+			(xy 179.07 68.58) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4517,6 +4551,106 @@
 		)
 	)
 	(symbol
+		(lib_id "tart:CS48520AD")
+		(at 193.04 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b0cd13-aa7f-4353-9050-9ce7bc287f16")
+		(property "Reference" "U2"
+			(at 195.1833 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CS48520AD"
+			(at 195.1833 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://e.chipanalog.com/product/cs48520s/"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "The CS485xx family of devices are low-power half-duplex transceivers for RS-485/RS-422 communications"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7422569"
+			(at 195.1833 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6"
+			(uuid "458d4bc4-8ff6-42e0-a193-58dbf942854a")
+		)
+		(pin "9"
+			(uuid "45291033-325d-4b14-965c-c9892ee9a405")
+		)
+		(pin "3"
+			(uuid "56ffdea1-5aa3-4fc6-84b0-2e528db18955")
+		)
+		(pin "8"
+			(uuid "a15c8dd9-ac35-4896-8ce4-bd2802552ce1")
+		)
+		(pin "5"
+			(uuid "5b64f3aa-09d0-4f6c-8d39-07ac0ae8902b")
+		)
+		(pin "2"
+			(uuid "034db6a8-8266-4742-9930-b8c690c3a520")
+		)
+		(pin "1"
+			(uuid "d2320425-c8de-4406-a8bb-42cf4cd5ca7d")
+		)
+		(pin "7"
+			(uuid "4e0c52ba-b1cd-40d0-8895-c46dce948663")
+		)
+		(pin "4"
+			(uuid "419f5681-303a-4f17-9100-a3dbfb9353f8")
+		)
+		(instances
+			(project ""
+				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 193.04 69.85 0)
 		(unit 1)
@@ -5752,103 +5886,6 @@
 			(project "design"
 				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tart:CS48520AS")
-		(at 193.04 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6a1d2e9-12ef-4f53-a12b-23a92459ff50")
-		(property "Reference" "U2"
-			(at 195.1833 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CS48520AS"
-			(at 195.1833 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 191.77 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://e.chipanalog.com/product/cs48520s/"
-			(at 193.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "The CS485xx family of devices are low-power half-duplex transceivers for RS-485/RS-422 communications"
-			(at 193.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7422554"
-			(at 195.1833 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "6"
-			(uuid "21d0b497-79df-45d6-86cb-80a868e57715")
-		)
-		(pin "3"
-			(uuid "9273d6ec-0c80-4569-82be-c7a07ac7c91e")
-		)
-		(pin "2"
-			(uuid "18024961-7e04-4ad4-ab3f-829ae918fc26")
-		)
-		(pin "1"
-			(uuid "4009db95-1238-4aaa-97b8-643d01e7e17b")
-		)
-		(pin "8"
-			(uuid "c694f11e-e916-4795-a712-0ba6835b4fd5")
-		)
-		(pin "5"
-			(uuid "9ad4f5e5-8eed-4622-9d89-8240b4a17586")
-		)
-		(pin "4"
-			(uuid "f59b3446-495d-4a32-8c7a-96f306ef60e9")
-		)
-		(pin "7"
-			(uuid "d979c06b-f243-4e1b-b3a2-70af42bb2476")
-		)
-		(instances
-			(project ""
-				(path "/6dbd6c42-edf6-461d-b7ca-066e49b0019c"
-					(reference "U2")
 					(unit 1)
 				)
 			)
